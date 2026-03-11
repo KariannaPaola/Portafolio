@@ -6,7 +6,7 @@ export  const ProjectsPage = () => {
       tech: ["React", "Tailwind CSS", "Consumo de Api", "Node.js" ],
       github: "https://github.com/KariannaPaola/Marketplace-Servicios-locales",
       demo: "https://marketplace-servicios-locales.vercel.app/",
-      image: "/public/images/capture.jpeg"
+      image: "/images/capture.jpeg"
     },
     {
       title: "App de clima",
@@ -14,14 +14,14 @@ export  const ProjectsPage = () => {
       tech: ["React", "Consumo de Api", "Tailwind CSS", "Responsive Design" ],
       github: "https://github.com/KariannaPaola/App-clima",
       demo: "https://app-clima-puce.vercel.app/", 
-      image: "public/images/capture1.jpeg"
+      image: "/images/capture1.jpeg"
     },  {
       title: "APP Rick and Morty",
       description: "Aplicación utilizando la API de Rick and Morty",
       tech: ["Javascript", "Consumo de Api", "Tailwind CSS", "Responsive Design" ],
       github: "https://github.com/KariannaPaola/ProyectoFinalJS",
       demo: "https://kariannapaola.github.io/ProyectoFinalJS/",
-      image: "public/images/capture2.jpeg"
+      image: "/images/capture2.jpeg"
     },
     {
       title: "To-do-list",
@@ -29,14 +29,14 @@ export  const ProjectsPage = () => {
       tech: ["Javascript", "Tailwind CSS" ],
       github: "https://github.com/KariannaPaola/POE-TODOLIST",
       demo: "https://kariannapaola.github.io/POE-TODOLIST/",
-      image: "/public/images/capture3.jpeg"
+      image: "/images/capture3.jpeg"
     }, {
       title: "Lista de contactos",
       description: "Aplicación web para buscar contactos",
       tech: ["Javascript", "Tailwind CSS" ],
       github: "https://github.com/KariannaPaola/Poe-lista-de-contactos",
       demo: "https://kariannapaola.github.io/Poe-lista-de-contactos/",
-      image: "/public/images/capture4.jpeg"
+      image: "/images/capture4.jpeg"
     }
   ];
 
