@@ -1,4 +1,4 @@
-const Projects = () => {
+export  const ProjectsPage = () => {
   const projects = [
     {
       title: "Marketplace de servicios locales",
@@ -23,6 +23,21 @@ const Projects = () => {
       demo: "https://kariannapaola.github.io/ProyectoFinalJS/",
       image: "public/images/capture2.jpeg"
     },
+    {
+      title: "To-do-list",
+      description: "Aplicación web de lista de tareas",
+      tech: ["Javascript", "Tailwind CSS" ],
+      github: "https://github.com/KariannaPaola/POE-TODOLIST",
+      demo: "https://kariannapaola.github.io/POE-TODOLIST/",
+      image: "/public/images/capture3.jpeg"
+    }, {
+      title: "Lista de contactos",
+      description: "Aplicación web para buscar contactos",
+      tech: ["Javascript", "Tailwind CSS" ],
+      github: "https://github.com/KariannaPaola/Poe-lista-de-contactos",
+      demo: "https://kariannapaola.github.io/Poe-lista-de-contactos/",
+      image: "/public/images/capture4.jpeg"
+    }
   ];
 
   return (
@@ -96,7 +111,3 @@ const Projects = () => {
   </section>
 );
 };
-
-
-
-export default Projects;

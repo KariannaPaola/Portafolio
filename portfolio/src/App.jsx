@@ -1,23 +1,18 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Technologies from "./components/Technologies";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Projects from "./components/Proyects";
-import MainLayout from "./Layouts/MainLayout";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ProjectsPage } from "./pages/ProjectsPages";
+import InicioPage from "./pages/InicioPage";
+import NotFound from "./pages/NotFoundPage";
 
 
 function App() {
   return (
     <>
-     <MainLayout>
-      <Header />
-      <Hero />
-      <Projects />
-      <Technologies />
-      <Contact />
-      <Footer />
-    </MainLayout>
+      <Routes>
+        <Route path="/" element={<InicioPage/>} />
+        <Route path="/inicio" element={<InicioPage/>} />
+        <Route path="/projects" element={<ProjectsPage/>} />
+        <Route path="*" element={<NotFound/>} />
+      </Routes>
     </>
   );
 }
